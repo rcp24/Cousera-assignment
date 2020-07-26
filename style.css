@@ -1,0 +1,107 @@
+
+
+* {
+  box-sizing: border-box;
+  
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center; 
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #EF6079FF;
+}
+
+p {
+  border: 2px solid black;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  margin-left: auto;
+  font-family: cursive;
+  color: black;
+  background-color:  skyblue;
+  position:relative;
+  margin-top: -5px;
+  margin-right: -5px;
+  font-weight: bold;
+  
+
+  
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    padding: 5px;
+    float: left;
+    background-color: #f2f2f2;
+    border:2px solid black;
+    margin: 3px;
+    height: 210px;
+   
+
+  }
+  
+  .col-lg-4 {
+    width: 32.7%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+    padding: 5px;
+    float: left;
+    border: 2px solid black;
+    margin: 3px;
+    height: 200px;
+    background-color:#f2f2f2;
+    
+  }
+  
+  
+  .col-md-6 {
+    width: 49.2%;
+  }
+  
+  div div:nth-child(3){
+    width:100%;
+    clear:both;
+
+    
+  }
+}
+
+@media (max-width: 767px){
+  .col-lg-12{
+    padding:5px;
+    border: 2px solid black;
+    margin: 3px;
+    background-color: #f2f2f2;
+    height: 180px;
+  }
+}
+
+#s1 {
+  background-color: yellow;
+  }
+
+#s2 {
+  background-color:#808080;
+  }
+
+.sports{
+font-family: cursive;
+}
+
+
+
+
